@@ -1,9 +1,7 @@
-# Face classification and detection from the [B-IT-BOTS robotics team](https://mas-group.inf.h-brs.de/?page_id=622).
+# Face classification and detection
 Real-time face detection and emotion/gender classification using fer2013/IMDB datasets with a keras CNN model and openCV.
 * IMDB gender classification test accuracy: 96%.
 * fer2013 emotion classification test accuracy: 66%.
-
-For more information please consult the [publication](https://github.com/oarriaga/face_classification/blob/master/report.pdf)
 
 # Emotion/gender examples:
 
@@ -34,14 +32,6 @@ Real-time demo:
 e.g.
 
 > python3 image_emotion_gender_demo.py ../images/test_image.jpg
-
-### Running with Docker
-
-With a few steps one can get its own face classification and detection running. Follow the commands below:
-
-* ```docker pull ekholabs/face-classifier```
-* ```docker run -d -p 8084:8084 --name=face-classifier ekholabs/face-classifier```
-* ```curl -v -F image=@[path_to_image]  http://localhost:8084/classifyImage > image.png```
 
 ### To train previous/new models for emotion classification:
 

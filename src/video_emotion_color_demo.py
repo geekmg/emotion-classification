@@ -33,6 +33,7 @@ emotion_window = []
 
 # starting video streaming
 cv2.namedWindow('window_frame')
+cv2.setWindowProperty("Name", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN);
 video_capture = cv2.VideoCapture(0)
 while True:
     bgr_image = video_capture.read()[1]

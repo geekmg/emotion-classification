@@ -1,4 +1,4 @@
-#!/home/ubuntu/face_classification/bin/python3
+#!/home/azariel/project/emotion_classification/bin/python3
 
 # Author: 
 # Contact: grubert@users.sf.net

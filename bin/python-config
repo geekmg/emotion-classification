@@ -1,4 +1,4 @@
-#!/home/ubuntu/face_classification/bin/python
+#!/home/azariel/project/emotion_classification/bin/python
 
 import sys
 import getopt

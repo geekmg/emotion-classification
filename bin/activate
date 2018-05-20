@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/ubuntu/face_classification"
+VIRTUAL_ENV="/home/azariel/project/emotion_classification"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
